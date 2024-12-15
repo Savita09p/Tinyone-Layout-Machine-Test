@@ -1,0 +1,63 @@
+.pri-heading{
+    color:var(--text-color-pri);
+    font-size:3.2rem;
+    font-weight:bold;
+    margin-bottom: 2.5rem;
+    
+}
+.sec-heading{
+    color:var(--text-color-sec);
+    font-size:2rem;
+    font-weight: 400;
+    margin: 0 0 2.5rem;
+}
+.para{
+    color:var(--text-color-tri);
+    font-size:1.6rem;
+    font-weight:400;
+    margin-bottom: 4rem;
+
+}
+.socialIcons li{
+    display: inline-block;
+    margin-right:2.5rem;
+
+}
+.socialIcons a{
+    color:var(--text-color-pri);
+}
+.socialIcons i{
+    font-size: 4rem;
+    transition: all .6s linear;
+}
+.socialIcons i:hover,
+.socialIcons i:focus,
+.socialIcons i:active{
+    transform: rotate(360deg) scale(1.5);
+}
+.feaThumbHeading{
+    font-size:2.2rem;
+    color:var(--text-color-pri);
+    font-weight: bold;
+    margin:0 0 1.5rem;
+    text-transform: uppercase;
+}
+.feaThumbPara{
+    font-size:1.6rem;
+    font-weight:400;
+    color:var(--text-color-q);
+}
+.featuresThumb i{
+    font-size:4rem;
+}
+.featuresThumb{
+    margin-bottom: 8.4rem;
+}
+.footer .pri-heading{
+    color:var(--color-primary);
+
+}
+.footer .sec-heading{
+    color:var(--text-color-q);
+    margin-bottom: 4.5rem;
+}

@@ -1,0 +1,23 @@
+:root{
+    --color-primary:#fcdb00;
+    --text-color-sec:#313841;
+    --text-color-pri:#010101;
+    --text-color-tri:#555;
+    --text-color-q:#898989;
+}
+ul{
+    list-style:none;
+    padding:0;
+}
+a:is(:link, :visited){
+    text-decoration:none;
+}
+.mb-90{
+    margin-bottom: 9rem;
+}
+.px-20{
+    padding: 0 2rem;
+}
+.mb-80{
+    margin-bottom:8rem;
+}

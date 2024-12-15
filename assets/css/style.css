@@ -1,0 +1,76 @@
+.heroImg{
+    padding:5.5rem 0 10.5rem;
+    background-color: #fcdb00;
+}
+.navbar-default.mainNavbar{
+    background-color: transparent;
+    border:0;
+    margin-bottom: 6rem;
+}
+.mainNavbar .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.mainNavbar .navbar-nav>li>a{
+    color:var(--text-color-primary);
+    font-size:2.2rem;
+    font-weight:bold;
+    text-transform:capitalize;
+    padding:0 15px;
+    display:inline-block;
+    height:3rem;
+    line-height: 3rem;
+    position:relative;
+}
+.mainNavbar .navbar-nav>li>a::before{
+    content:'';
+    width:0;
+    height:0.2rem;
+    display:inline-block;
+    position:absolute;
+    left:0;
+    bottom:o;
+    background-color:var(--text-color-pri);
+    transition: all 0.7s linear;
+}
+.mainNavbar .navbar-nav>li>a:hover::before{
+    width:100%;
+}
+.inspiration{
+    margin-top:7.2rem;
+}
+.features{
+    padding:15rem 0 16rem;
+}
+.footer{
+    padding:9.5rem 0 14rem;
+    background-color: var(--text-color-pri);
+}
+.footer .form-control{
+    height:5rem;
+}
+#emailUpdatedBtn{
+    width:100%;
+    height:5rem;
+    color:var(--text-color-pri);
+    text-transform: uppercase;
+    font-weight:700;
+    background-color: var(--color-primary);
+    font-size:1.6rem;
+}
+.footer .socialIcons a:is(:link, :visited){
+    color:var(--color-primary);
+}
+.footerLink a:is(:link, :visited), .footerLink li{
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
